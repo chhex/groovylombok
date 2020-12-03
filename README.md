@@ -1,1 +1,2 @@
-# Java Lombok annotated Classes consumed from Groovy
+Examples for Java Lombok annotated Classes consumed from Groovy
+
