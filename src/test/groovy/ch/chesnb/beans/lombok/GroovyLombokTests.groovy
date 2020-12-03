@@ -60,7 +60,7 @@ class GroovyLombokTests extends Specification {
         result.second == "Another"
     }
 
-    def "Value Groovy Object TestE  "() {
+    def "Groovy class with Lombok annotation doesn't work"() {
         def builder = TestE.builder()
                 .firstNotNull("FirstTest")
                 .second("Another")
