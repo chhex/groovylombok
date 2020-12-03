@@ -1,1 +1,1 @@
-# Java Lombok Classes with Groovy consuming scenarios 
+# Java Lombok annotated Classes consumed from Groovy
