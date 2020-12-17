@@ -7,7 +7,7 @@ plugins {
 }
 
 
-description 'Strange behaviour loading resources'
+description 'Testing Java Lombok / Groovy interoperabilty'
 
 repositories {
     mavenLocal()
