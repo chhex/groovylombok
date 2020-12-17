@@ -4,7 +4,7 @@ import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonPOJOBuilder;
 import lombok.*;
 
-@JsonDeserialize(builder = TestA.TestBuilder.class)
+@JsonDeserialize(builder = TestA.TestABuilder.class)
 @Value
 @Builder
 public class TestA {
@@ -12,7 +12,7 @@ public class TestA {
     private String firstNotNull;
     private String second;
 
-    @JsonPOJOBuilder
-    static class TestBuilder {
+    @JsonPOJOBuilder(withPrefix = "")
+    static class TestABuilder {
     }
 }
