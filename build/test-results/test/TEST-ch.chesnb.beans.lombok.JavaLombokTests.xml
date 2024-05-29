@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ch.chesnb.beans.lombok.JavaLombokTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-05-29T12:52:37" hostname="CheSilicon.local" time="0.006">
+  <properties/>
+  <testcase name="Value Object TestA with builder" classname="ch.chesnb.beans.lombok.JavaLombokTests" time="0.005"/>
+  <testcase name="Data Object TestB setter and getter" classname="ch.chesnb.beans.lombok.JavaLombokTests" time="0.001"/>
+  <testcase name="Value Object TestC with toBuilder(true)" classname="ch.chesnb.beans.lombok.JavaLombokTests" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
